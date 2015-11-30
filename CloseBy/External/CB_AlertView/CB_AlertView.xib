@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Avgardd_1.ttf">
+            <string>AvantGardeITCbyBT-Demi</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UIViewController"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CB_AlertView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mhN-e8-ulq">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="adF-xv-0x3">
+                    <rect key="frame" x="260" y="260" width="80" height="80"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Loading..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p5a-su-ME1">
+                            <rect key="frame" x="2" y="59" width="80" height="21"/>
+                            <fontDescription key="fontDescription" name="AvantGardeITCbyBT-Demi" family="AvantGarde Bk BT" pointSize="14"/>
+                            <color key="textColor" red="0.16078431372549021" green="0.56862745098039214" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="F1l-3p-gnn">
+                            <rect key="frame" x="10" y="0.0" width="60" height="60"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="AMd-BT-bB8"/>
+                        <constraint firstAttribute="height" constant="80" id="y14-OY-TUA"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="3"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                            <color key="value" red="0.16078431372549021" green="0.56862745098039214" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="mhN-e8-ulq" secondAttribute="trailing" id="6si-3C-dlf"/>
+                <constraint firstAttribute="bottom" secondItem="mhN-e8-ulq" secondAttribute="bottom" id="X8s-Jq-g5r"/>
+                <constraint firstAttribute="centerY" secondItem="adF-xv-0x3" secondAttribute="centerY" id="hhL-EJ-Vyu"/>
+                <constraint firstItem="mhN-e8-ulq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="sBE-Et-oCa"/>
+                <constraint firstAttribute="centerX" secondItem="adF-xv-0x3" secondAttribute="centerX" id="tC9-4N-qPh"/>
+                <constraint firstItem="mhN-e8-ulq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wXG-QB-6Ms"/>
+            </constraints>
+            <connections>
+                <outlet property="backdrop" destination="mhN-e8-ulq" id="oor-42-4nJ"/>
+                <outlet property="loadingGif" destination="F1l-3p-gnn" id="w8Z-Zl-sBy"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_logo.png" width="188" height="229"/>
+    </resources>
+</document>

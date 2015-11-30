@@ -1,0 +1,31 @@
+PODS:
+  - APAvatarImageView (1.1.0)
+  - CHTCollectionViewWaterfallLayout (0.9.1)
+  - EstimoteSDK (3.3.3)
+  - Haneke (1.0.1)
+  - HMSegmentedControl@hons82 (1.4.3)
+  - THSegmentedPager (1.0.0):
+    - HMSegmentedControl@hons82 (~> 1.4.3)
+  - TNRadioButtonGroup (0.4)
+  - UIImage-Helpers (0.0.3)
+
+DEPENDENCIES:
+  - APAvatarImageView
+  - CHTCollectionViewWaterfallLayout
+  - EstimoteSDK
+  - Haneke (~> 1.0)
+  - THSegmentedPager (~> 1.0.0)
+  - TNRadioButtonGroup
+  - UIImage-Helpers
+
+SPEC CHECKSUMS:
+  APAvatarImageView: 428dbd0631a150fe876f90bfd7eaa275a19b9209
+  CHTCollectionViewWaterfallLayout: 1a8da4fc662702cbddda8926ced266036a829f84
+  EstimoteSDK: 081e0653a747a6fc275eb26e6cb3b3fe5a87984f
+  Haneke: d60be8b96b228633b24708dd153169d6849d6f78
+  HMSegmentedControl@hons82: c117190e2dd52599941768780b6ec1a2a6e39e06
+  THSegmentedPager: 757c373e0d3f127a014ac9ebf817397eda7bef0f
+  TNRadioButtonGroup: f5fb9b545d8913bbabe6a72ea1fa6fba4d833bb6
+  UIImage-Helpers: 06b04a42bdd222844035602e87e936765c80f620
+
+COCOAPODS: 0.38.2

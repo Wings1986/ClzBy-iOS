@@ -1,0 +1,10 @@
+<?xml version="1.0"?> 
+<gpx version="1.0" creator="MyName">
+<!-- 	<wpt lat="59.311995" lon="18.079548">-->
+<!--        <name>Malmtorgsgatan 1 111 51 Stockholm</name>-->
+<!--	</wpt>-->
+    <wpt lat="-27.493858f" lon="153.042590f">
+        <name>Malmtorgsgatan 1 111 51 Stockholm</name>
+    </wpt>
+
+</gpx>
